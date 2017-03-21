@@ -4,7 +4,7 @@
 /**
  * @desc:  负数 转换成 正数表示
  *
- * @param: 负数的绝对值
+ * @param: negative_num 负数的绝对值
  *
  * @return: 一个正值表示的负数
  */
