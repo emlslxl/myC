@@ -56,9 +56,9 @@ struct persion
 //人基类拥有say_hello的方法
 void say_hello(struct persion *p)
 {
-    printf("hello my name is %s\n",p->name);
-    printf("my age is %d.\n",p->age);
-    printf("my sex is %c.\n",p->sex);
+    printf("hello my name is %s\n", p->name);
+    printf("my age is %d.\n", p->age);
+    printf("my sex is %c.\n", p->sex);
 }
 
 int main(void)
@@ -85,8 +85,8 @@ int main(void)
     add_list_node_after(&list_head, &(persion2.list));
 
     //遍历链表
-    list_for_each_entry(ppp,&list_head,list)
-        ppp->say_hello(ppp);
+    list_for_each_entry(ppp, &list_head, list)
+    ppp->say_hello(ppp);
 
 
     return 0;
